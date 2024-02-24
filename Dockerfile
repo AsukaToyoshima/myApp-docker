@@ -20,5 +20,4 @@ COPY . .
 EXPOSE 3000
 
 # コンテナが起動した時の起動コマンドを設定。
-#CMD ["node", "index.js"]
-CMD [ "nodemon", "index.js" ]
+CMD ["node", "index.js"]
